@@ -19,14 +19,6 @@ client.on("messageCreate", function(message) {
     console.log(`deleting non-honk message from ${message.author}`)
     message.delete()
   }
-  // if((message.content === "honk") && (message.author.id !== client.user.id)) {
-  //   message.channel.send("honk")
-  // } else {
-  //   if (message.author.id !== client.user.id) {
-  //     
-  //     message.delete()
-  //   }
-  // }
 })
 
 client.on("reconnecting", function(){
