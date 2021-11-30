@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
-    "lint": "standard"
+    "lint": "standard",
+    "build": "sudo docker build ."
   },
   "author": "Tierney Cyren <hello@bnb.im> (https://bnb.im/)",
   "license": "MIT",
