@@ -18,7 +18,7 @@ fastify.listen(process.env.PORT, function (err, address) {
 const Discord = require('discord.js')
 const client = new Discord.Client({ intents: [Discord.Intents.FLAGS.GUILDS, Discord.Intents.FLAGS.GUILD_MESSAGES] })
 
-const token = process.env.discordtoken
+const token = process.env.DISCORD_TOKEN
 
 client.on('ready', function () {
   console.log('the client becomes ready to start')
